@@ -1,0 +1,147 @@
+.customerCard {
+  max-width: 900px;
+  width: 100%;
+  margin: 100px auto;
+}
+
+.customerCard input {
+  border: 1px solid #ccc;
+  padding: 7px 6px;
+  font-weight: 400;
+  box-shadow: rgba(0, 0, 0, 0.075) 0 1px 1px inset;
+  outline: none;
+  border-radius: 5px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.customerCard .message {
+  text-align: center;
+}
+
+.customerCard .first_input {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.customerCard .second_input {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.customerCard textarea {
+  max-width: 900px;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 7px 6px;
+  font-weight: 400;
+  box-shadow: rgba(0, 0, 0, 0.075) 0 1px 1px inset;
+  outline: none;
+  border-radius: 5px;
+}
+
+.customerCard button {
+  background-color: orangered;
+  border: none;
+  box-shadow: none;
+  padding: 10px 50px;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .customerCard input {
+    padding: 7px 6px;
+    padding: 5px 6px;
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .customerCard textarea {
+    max-width: 700px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .customerCard input {
+    padding: 7px 6px;
+    padding: 5px 6px;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  .customerCard textarea {
+    max-width: 500px;
+    width: 100%;
+  }
+
+  .customerCard .msgBtn {
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .customerCard .first_input {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .customerCard .second_input {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .customerCard input {
+    padding: 7px 6px;
+    padding: 5px 6px;
+    max-width: 350px;
+    width: 100%;
+  }
+
+  .customerCard textarea {
+    max-width: 350px;
+    width: 100%;
+  }
+
+  .customerCard .msgBtn {
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  .customerCard .first_input {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .customerCard .second_input {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+}
